@@ -34,4 +34,4 @@ jobs:
         with: 
           app-name: ${{ env.AZURE_WEBAPP_NAME }} # Replace with your app name
           publish-profile: ${{ secrets.AzureAppService_PublishProfile_af86e13f4c884c6c9eb1607ecd37c5c5 }}
-          package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp/app1'
+          package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp'
